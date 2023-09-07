@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy</title>
+    <style>
+        #container{
+            border:1px solid black
+        }
+        .heading{
+            background-color:brown ;
+            color:white;
+            height:50px;
+            margin-top: -20px;
+            text-align: center;
+            
+        }
+        .price{
+            display: flex;
+            grid-gap:40px;
+        }       
+    </style>
+</head>
+<body>
+    <form method="POST",action="{{ url_for('web') }}">
+    <div id="container">
+        <div class="heading"> 
+    <h2 style="padding:10px">Recommendation Model</h2>
+</div>
+<div>
+    <h3>Cusine: <input type='text' name="cusine"/></h3>
+    <div class="price">
+    <div>
+    <h3>Prefered Price for 1: <input type='text' name="price"/></h3></div>
+    <div>
+    <h3>Prefered Location: <input type='text' name="loc"/></h3>
+    </div>
+    <input type="submit" value="Predict">
+    </div>
+</div>
+<hr>
+<div>
+<p style="color:blue"><b>Based on your prefered Location</b></p>
+<h4>Average Price for 1:
+    <input type="text" name="price_pred" 
+    value="{{ predict }}" readonly>
+</h4>
+<h4>Popular_Cusine_based_on_Location:
+    <input name="popular_cuisine"
+    value="{{ predict_1 }}" readonly/>
+</h4>
+<h4>Recommended Location:
+    <input name="Most_popular_cousine"
+    value="{{ predict_2 }}" readonly>
+</h4>
+<h4>Recommended Dish:
+    <input name="Cusine_Severve"
+    value="{{ predict_3 }}" readonly>
+</h4>
+<h4>Popular_Restaurant_that_serves_your_Cuisine:
+    <input name="popular_restaurent"
+    value="{{ predict_4 }}" readonly>
+</h4>
+</div>
+    </div>
+</form>
+</body>
+</html>
