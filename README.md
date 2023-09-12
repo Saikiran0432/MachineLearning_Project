@@ -23,6 +23,10 @@
 - Created a Dashboard which will give more insights
 - Created slicers to allow the users to extract the required information
 - ![Ml_2](https://github.com/Saikiran0432/MachineLearning_Project/assets/144260007/c511b85e-6175-4956-a5bd-37a4b09de2dc)
+## KeyFindings
+- ![chart_2](https://github.com/Saikiran0432/Restaurent_Recomendation_Model/assets/144260007/050dba43-1e54-404c-bd3a-a7bf085d33ae)
+- Icecreams,Deserts are the most popular Cuisine
+- NorthIndian is the expensive Cuisine based on the data
 ## Limitations
 - Not enough data about users or items, making it difficult to give accurate recommendations
 - Struggle with updates in real-time, like user preferences or changing item availability
