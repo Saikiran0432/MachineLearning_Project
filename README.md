@@ -1,4 +1,6 @@
 # MachineLearning_Project
+##Introduction
+-This repository contains the code and documentation for the Restaurant Recommendation Model.The project involves collecting restaurant data from the Swiggy website using web scraping techinques, cleaning the data using python and pandas, building a Random Forest Regressor Model to predict restaurant prices.The project also includes an interactive webpage built using flask library to provide user-friendly recommendations and insights.
 ## Skills
 - Python
 - Data Cleaning
@@ -21,4 +23,11 @@
 - Created a Dashboard which will give more insights
 - Created slicers to allow the users to extract the required information
 - ![Ml_2](https://github.com/Saikiran0432/MachineLearning_Project/assets/144260007/c511b85e-6175-4956-a5bd-37a4b09de2dc)
+## Limitations
+1.Not enough data about users or items, making it difficult to give accurate recommendations
+2.Struggle with updates in real-time, like user preferences or changing item availability
+3.Handle sensitive user data, so we need to prioritize privacy.
+4.Made Recommendations more understandable and transparent.
+##Conclusion
+In summary, the project achieved its objective of assisting users in making informed dining choices by scraping swiggy data and employing advanced models like Linear Regression, Logisitic Regression and Random Forest. The Random Forest Regressor model outshone others with an impressive accuracy in predicting menu prices and suggesting suitable restaurants.
 
