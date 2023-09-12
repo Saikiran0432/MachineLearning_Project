@@ -1,3 +1,4 @@
+#Importing requried librares
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
@@ -6,6 +7,8 @@ import pickle
 from hi import cus_dit,loc_dit
 from hi import df
 from hi import location_list
+
+#Loading the Model
 model=pickle.load(open('price_model.pkl','rb'))
 app=Flask(__name__)
 @app.route('/', methods=['GET','POST'])
@@ -17,8 +20,8 @@ app=Flask(__name__)
 def main():
     if request.method=='POST':
         return web()
+    #Returing the values in required fields
     return render_template('web.html',predict="",predict_1="",predict_2="",predict_3="",predict_4="")
-
 @app.route('/predict', methods=['POST','GET'])
 def web():
     if request.method=='POST':
