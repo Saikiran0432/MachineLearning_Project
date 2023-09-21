@@ -1,6 +1,8 @@
 
 
-# Restaurant Recommendation Model
+# Swiggy Restaurant Recommendation Model
+## Introduction
+The "Swiggy Restaurant Recommendation Model" project simplifies the decision making process by utilizing data science and machine learning. This project provides personalized restaurant recommendations to users based on their cuisine preferences and location. It involves web scraping, data cleaning, machine learning modeling, and the development of an interactive web application for an enhanced dining experience.
 
 ## 🍽️ Problem Aimed to Solve
 
@@ -13,6 +15,14 @@ The project can be divided into several key components:
 ### 🌐 Data Extraction
 
 - Utilizing web scraping techniques with Selenium to collect comprehensive restaurant data from the Swiggy website. Information includes restaurant names, cuisines, locations, user reviews, and menu prices.
+![model_1](https://github.com/Saikiran0432/Swiggy_Restaurent_Recomendation_Model/assets/144260007/9daf1b3e-311c-421d-ab2d-ce9c78952f19)
+
+This code snippet demonstrates the process of web scraping with Selenium to extract essential restaurant data from the Swiggy website. Specifically, it focuses on extracting restaurant names and locations.
+The code accomplishes the following:
+1. Initializes a WebDriver using Selenium to open the Swiggy website.
+2. Utilizes the "find_elements" method with "By.CLASS_NAME" to locate and extract restaurant names and locations.
+3. Prints the extracted restaurant names and locations to the console for demonstration purposes.
+
 
 ### 🧹 Data Preprocessing
 
