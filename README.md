@@ -65,6 +65,9 @@ Exploratory Data Analysis (EDA) and visualizations play a significant role in un
 - Ice creams and desserts emerge as the most popular cuisines among users, followed by North Indian and Chinese.
 - The analysis also reveals that North Indian cuisine tends to be the most expensive, while fast food and South Indian are generally more budget-friendly.
 - ![chart_2](https://github.com/Saikiran0432/Restaurent_Recomendation_Model/assets/144260007/0e101a9a-9965-4a9d-8f0f-3fb07f7898ca)
+- Kormangla has high area wise Restaruent distribution than other cities
+- ![kormangla](https://github.com/Saikiran0432/Swiggy_Restaurent_Recomendation_Model/assets/144260007/414b595d-b9c8-4cfc-85e3-2f4c87933d1d)
+
 
 ## 📝 Conclusion
 
